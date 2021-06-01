@@ -3,4 +3,4 @@ const Player = require('./Player');
 
 class Ai extends Player{
     constructor(){
-        this.player = Player1;
+        this.player = Player2;
