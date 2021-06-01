@@ -17,15 +17,11 @@ class Player {
         else{
             console.log("choose a gesture");
         }
-    }
-
     
+
+
   
     module.exports = Player
 
 
-
-
-
-
-}
+    }
