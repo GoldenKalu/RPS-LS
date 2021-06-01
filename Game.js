@@ -10,6 +10,7 @@ class Game {
     run(){
         this.greetPlayer();
         this.howManyPlayers();
+        this.choices();
     }
 
     greetPlayer(){
@@ -18,8 +19,12 @@ class Game {
 
     howManyPlayers(){
         let userInput = prompt ("how many players?");
-
+        
         console.log(userInput);
+    }
+
+    choices(){
+        console.log("your choices are rock, paper, scissors, lizard, spock");
     }
 
 
